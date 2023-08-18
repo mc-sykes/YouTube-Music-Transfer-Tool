@@ -7,8 +7,8 @@ def main():
     prevListCount = 0
     while(True):
         tomorrow = datetime.now() + timedelta(days = 1)
-        yt = Youtube.getToken("mcballer815")
-        sp = Spotify.getToken("monkeyballer98")
+        yt = Youtube.getToken("")
+        sp = Spotify.getToken("")
         print("Tokens Updated")
 
         listId, listCount = Youtube.getPlaylistInfo(yt, "Spotify Transfer")
