@@ -4,8 +4,8 @@ def getToken(username):
     try:
         # client_id and client_secret come from app created in Spotify developer account
         token = spotipy.util.prompt_for_user_token(username, "user-library-modify user-read-private",
-        client_id='be3ff50517384a24907a8eed8c80bca1', 
-        client_secret='7e38a4328695403b902462610db339c6',
+        client_id='', 
+        client_secret='',
         redirect_uri='http://google.com/')
     except:
         remove(f".cache-{username}")
