@@ -10,7 +10,7 @@ def getToken(username):
     os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
     api_service_name = "youtube"
     api_version = "v3"
-    client_secrets_file = "client_secret_676209329261-mhuvt3jqfke8n6gurqj2d6ar1l2rpa8r.apps.googleusercontent.com.json"
+    client_secrets_file = ""
 
     # Look for stored API client for user. If not found create one
     try:
